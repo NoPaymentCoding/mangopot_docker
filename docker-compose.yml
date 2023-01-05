@@ -1,6 +1,16 @@
 version: "3"
 
 services:
+  frontend:
+    build: ./mangopot_frontend
+    command: ["npm", "start"]
+    ports:
+      - 8081:8081
+    networks:
+      - app-tier
+    volumes:
+      - ./mangopot_frontend:/app
+
   backend:
     build: ./mangopot_backend
     ports:
