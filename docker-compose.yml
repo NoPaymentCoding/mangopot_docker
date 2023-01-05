@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  backend:
+    build: ./mangopot_backend
+    ports:
+      - 8080:8080
+    networks:
+      - app-tier
+
+networks:
+  app-tier:
+    driver: bridge
