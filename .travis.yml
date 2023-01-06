@@ -26,6 +26,7 @@ before_deploy:
   - cd before-deploy
   - mkdir -p mangopot_backend
   - cd ../
+  - cp docker-compose.yml before-deploy/
   - cp appspec.yml before-deploy/
   - cd mangopot_backend
   - cp scripts/*.sh ../before-deploy/
