@@ -1,6 +1,3 @@
 [submodule "mangopot_frontend"]
 	path = mangopot_frontend
 	url = https://github.com/NoPaymentCoding/mangopot_frontend.git
-[submodule "mangopot_backend"]
-	path = mangopot_backend
-	url = https://github.com/NoPaymentCoding/mangopot_backend.git
