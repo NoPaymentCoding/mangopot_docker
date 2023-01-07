@@ -30,7 +30,7 @@ before_deploy:
   - cp appspec.yml before-deploy/
   - cd mangopot_backend
   - cp scripts/*.sh ../before-deploy/
-  - cp build/libs/*.jar ../before-deploy/mangopot_backend/
+  - cp build/libs/*.jar ../before-deploy/mangopot_backend/build/libs
   - cp Dockerfile ../before-deploy/mangopot_backend/
   - cd ../
   - cp -r mangopot_frontend before-deploy/mangopot_frontend
