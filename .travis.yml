@@ -42,7 +42,8 @@ before_deploy:
 
 after_deploy:
   - cd mangopot_backend
-  -
+
+#s3, codeDeploy 에 deploy
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
