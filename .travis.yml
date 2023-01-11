@@ -19,6 +19,7 @@ before_install:
   - chmod +x gradlew
   - cd scripts
   - chmod +x deploy.sh
+  - cd ../
 
 script: "./gradlew clean build"
 
