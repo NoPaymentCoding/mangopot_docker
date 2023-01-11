@@ -20,7 +20,6 @@ before_install:
 
 script: "./gradlew clean build"
 
-#deploy 하기 전
 before_deploy:
   - cd ../
   - mkdir -p before-deploy
