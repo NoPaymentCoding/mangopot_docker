@@ -17,6 +17,8 @@ cache:
 before_install:
   - cd mangopot_backend
   - chmod +x gradlew
+  - cd scripts
+  - chmod +x deploy.sh
 
 script: "./gradlew clean build"
 
