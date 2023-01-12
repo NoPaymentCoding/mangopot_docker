@@ -56,7 +56,7 @@ deploy:
     skip_cleanup: true
     acl: private
     local_dir: deploy
-    wait-until-deploy: true
+    wait-until-deployed: true
     on:
       all_branches: true #master 브랜치 말고도 다른 브랜치 사용 위해서 추가
 
